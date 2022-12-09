@@ -1,12 +1,8 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
 .container {
   width: 375px;
   height: 812px;
+  margin: auto;
 }
 
 .avatar {
@@ -29,28 +25,22 @@
   margin-left: -88px;
 }
 .name {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 115.69%;
-  /* or 16px */
-
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #000000;
 }
 
 .desc {
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 115.69%;
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #d8605b;
 }
 
@@ -61,6 +51,7 @@
   border-radius: 50px;
   border-style: none;
   margin-top: 5px;
+  cursor: pointer;
 }
 .lock {
   margin-top: 10px;
@@ -72,14 +63,12 @@
 }
 
 .lock-info {
-  margin-left: 27px;
+  margin-left: 30px;
   align-items: center;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 115.69%;
-  letter-spacing: 0.06em;
   color: rgba(0, 0, 0, 0.75);
 }
 
@@ -96,7 +85,9 @@
 .title-text {
   padding: 20px 20px 0 20px;
 }
-
+.list-all {
+  margin-left: 5px;
+}
 .list-item {
   margin-left: 24px;
   width: 323px;
@@ -113,7 +104,6 @@
 
 .checkbox-item {
   list-style: none;
-  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -127,4 +117,18 @@
 .lock-time {
   margin-left: 10px;
   color: red;
+}
+
+//  scrollbar
+
+::-webkit-scrollbar {
+  width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
 }

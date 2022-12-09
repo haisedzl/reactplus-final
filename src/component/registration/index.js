@@ -49,13 +49,6 @@ function Registration() {
         <div className={cx("text")}>
           <div className={cx("form-register")}>
             <Form
-              name="basic"
-              labelCol={{
-                span: 20,
-              }}
-              wrapperCol={{
-                span: 21,
-              }}
               onFinish={onFinish}
             >
               <Form.Item
