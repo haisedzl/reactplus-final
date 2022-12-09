@@ -1,0 +1,130 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 375px;
+  height: 812px;
+}
+
+.avatar {
+  width: 375px;
+  height: 307px;
+  text-align: center;
+  background-color: rgba(244, 194, 127, 0.67);
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.avatar-border {
+  position: relative;
+  margin-top: 3px;
+}
+.user-avatar {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: -88px;
+}
+.name {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 115.69%;
+  /* or 16px */
+
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #000000;
+}
+
+.desc {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 115.69%;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #d8605b;
+}
+
+.btn-log-out {
+  width: 89px;
+  height: 22px;
+  background: #f4c27f;
+  border-radius: 50px;
+  border-style: none;
+  margin-top: 5px;
+}
+.lock {
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.lock-info {
+  margin-left: 27px;
+  align-items: center;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 115.69%;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.75);
+}
+
+.title {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 115.69%;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.75);
+  margin-bottom: 10px;
+  margin-left: 30px;
+}
+
+.title-text {
+  padding: 20px 20px 0 20px;
+}
+
+.list-item {
+  margin-left: 24px;
+  width: 323px;
+  height: 248px;
+  background: #ffffff;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+  border-radius: 24px;
+  overflow-y: scroll;
+}
+
+.checkbox {
+  margin: 10px;
+}
+
+.checkbox-item {
+  list-style: none;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 115.69%;
+  letter-spacing: 0.06em;
+  color: rgba(0, 0, 0, 0.75);
+}
+.item {
+  padding: 7px;
+}
+.lock-time {
+  margin-left: 10px;
+  color: red;
+}
